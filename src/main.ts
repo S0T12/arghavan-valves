@@ -11,6 +11,6 @@ async function bootstrap() {
   server.use(express.static(path.join(__dirname, '..', 'public')));
 
   await app.init();
-  await app.listen(3000);
+  await app.listen(3001);
 }
 bootstrap();
